@@ -1,0 +1,37 @@
+<div class="side-slot">
+  <div class="lives">
+    <span class="ice-and-fire-font">{{ lives }}</span>
+
+    <img src="assets/img/game/artifacts/life.png" />
+  </div>
+
+  <div class="power" [class.activated]="isShieldActivated">
+    <img src="assets/img/game/artifacts/shield.png" />
+  </div>
+
+  <div class="power" [class.activated]="isPunchActivated">
+    <img src="assets/img/game/artifacts/punch.png" />
+  </div>
+
+  <div class="power" [class.activated]="isLightningActivated">
+    <img src="assets/img/game/artifacts/lightning.png" />
+  </div>
+</div>
+
+<div class="ice-and-fire-font">{{ heroName }}</div>
+
+<div class="side-slot right">
+  <div class="boss-life" *ngIf="hasBoss">
+    <div class="life">
+      <div class="bar" [style.transform]="bossBarTransformCss"></div>
+    </div>
+
+    <img src="assets/img/game/boss/boss-avatar.png" />
+  </div>
+
+  <div class="score">
+    <span class="ice-and-fire-font">{{ score }}</span>
+
+    <img src="assets/img/game/artifacts/coins.png" />
+  </div>
+</div>

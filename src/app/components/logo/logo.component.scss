@@ -1,0 +1,40 @@
+:host {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fire-sphere {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  height: 137px;
+  padding: 0 20px;
+  background-image: url(../../../assets/img/logo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+
+  .ice-and-fire-font {
+    padding-top: 5px;
+    padding-left: 15px;
+    overflow-x: hidden;
+    letter-spacing: 12px;
+    white-space: nowrap;
+    text-shadow:
+      (
+        -1px -2px 0 rgb(0, 0, 0),
+        -1px -2px 3px rgb(255, 255, 255),
+        -1px -2px 3px rgb(255, 255, 255),
+        -1px -2px 3px rgb(255, 255, 255),
+      );
+  }
+}

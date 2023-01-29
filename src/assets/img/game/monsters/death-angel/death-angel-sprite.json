@@ -1,0 +1,262 @@
+{
+  "frames": {
+    "death-angel-frame-0.png": {
+      "frame": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-1.png": {
+      "frame": {"x": 450, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-2.png": {
+      "frame": {"x": 900, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-3.png": {
+      "frame": {"x": 1350, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-4.png": {
+      "frame": {"x": 1800, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-5.png": {
+      "frame": {"x": 2250, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-6.png": {
+      "frame": {"x": 2700, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-7.png": {
+      "frame": {"x": 3150, "y": 0, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-8.png": {
+      "frame": {"x": 0, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-9.png": {
+      "frame": {"x": 450, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-10.png": {
+      "frame": {"x": 900, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-11.png": {
+      "frame": {"x": 1350, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-12.png": {
+      "frame": {"x": 1800, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-13.png": {
+      "frame": {"x": 2250, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-14.png": {
+      "frame": {"x": 2700, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-15.png": {
+      "frame": {"x": 3150, "y": 328, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-16.png": {
+      "frame": {"x": 0, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-17.png": {
+      "frame": {"x": 450, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-18.png": {
+      "frame": {"x": 900, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-19.png": {
+      "frame": {"x": 1350, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-20.png": {
+      "frame": {"x": 1800, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-21.png": {
+      "frame": {"x": 2250, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-22.png": {
+      "frame": {"x": 2700, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-23.png": {
+      "frame": {"x": 3150, "y": 656, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-24.png": {
+      "frame": {"x": 0, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-25.png": {
+      "frame": {"x": 450, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-26.png": {
+      "frame": {"x": 900, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-27.png": {
+      "frame": {"x": 1350, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-28.png": {
+      "frame": {"x": 1800, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-29.png": {
+      "frame": {"x": 2250, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    },
+    "death-angel-frame-30.png": {
+      "frame": {"x": 2700, "y": 984, "w": 450, "h": 328},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 450, "h": 328},
+      "sourceSize": {"w": 450, "h": 328}
+    }
+  },
+  "animations": {
+    "self": [
+      "death-angel-frame-0.png",
+      "death-angel-frame-1.png",
+      "death-angel-frame-2.png",
+      "death-angel-frame-3.png",
+      "death-angel-frame-4.png",
+      "death-angel-frame-5.png",
+      "death-angel-frame-6.png",
+      "death-angel-frame-7.png",
+      "death-angel-frame-8.png",
+      "death-angel-frame-9.png",
+      "death-angel-frame-10.png",
+      "death-angel-frame-11.png",
+      "death-angel-frame-12.png",
+      "death-angel-frame-13.png",
+      "death-angel-frame-14.png",
+      "death-angel-frame-15.png",
+      "death-angel-frame-16.png",
+      "death-angel-frame-17.png",
+      "death-angel-frame-18.png",
+      "death-angel-frame-19.png",
+      "death-angel-frame-20.png",
+      "death-angel-frame-21.png",
+      "death-angel-frame-22.png",
+      "death-angel-frame-23.png",
+      "death-angel-frame-24.png",
+      "death-angel-frame-25.png",
+      "death-angel-frame-26.png",
+      "death-angel-frame-27.png",
+      "death-angel-frame-28.png",
+      "death-angel-frame-29.png",
+      "death-angel-frame-30.png"
+    ]
+  },
+  "meta": {
+    "image": "death-angel-sprite.png",
+    "format": "RGBA8888",
+    "size": {"w": 3600, "h": 1312},
+    "scale": "1"
+  }
+}

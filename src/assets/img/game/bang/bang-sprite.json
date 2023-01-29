@@ -1,0 +1,206 @@
+{
+  "frames": {
+    "bang-frame-0.png": {
+      "frame": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-1.png": {
+      "frame": {"x": 254, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-2.png": {
+      "frame": {"x": 508, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-3.png": {
+      "frame": {"x": 762, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-4.png": {
+      "frame": {"x": 1016, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-5.png": {
+      "frame": {"x": 1270, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-6.png": {
+      "frame": {"x": 1524, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-7.png": {
+      "frame": {"x": 1778, "y": 0, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-8.png": {
+      "frame": {"x": 0, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-9.png": {
+      "frame": {"x": 254, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-10.png": {
+      "frame": {"x": 508, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-11.png": {
+      "frame": {"x": 764, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-12.png": {
+      "frame": {"x": 1018, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-13.png": {
+      "frame": {"x": 1272, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-14.png": {
+      "frame": {"x": 1526, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-15.png": {
+      "frame": {"x": 1778, "y": 224, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-16.png": {
+      "frame": {"x": 0, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-17.png": {
+      "frame": {"x": 254, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-18.png": {
+      "frame": {"x": 508, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-19.png": {
+      "frame": {"x": 762, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-20.png": {
+      "frame": {"x": 1016, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-21.png": {
+      "frame": {"x": 1270, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-22.png": {
+      "frame": {"x": 1524, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    },
+    "bang-frame-23.png": {
+      "frame": {"x": 1778, "y": 448, "w": 254, "h": 224},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 254, "h": 224},
+      "sourceSize": {"w": 254, "h": 224}
+    }
+  },
+  "animations": {
+    "self": [
+      "bang-frame-0.png",
+      "bang-frame-1.png",
+      "bang-frame-2.png",
+      "bang-frame-3.png",
+      "bang-frame-4.png",
+      "bang-frame-5.png",
+      "bang-frame-6.png",
+      "bang-frame-7.png",
+      "bang-frame-8.png",
+      "bang-frame-9.png",
+      "bang-frame-10.png",
+      "bang-frame-11.png",
+      "bang-frame-12.png",
+      "bang-frame-13.png",
+      "bang-frame-14.png",
+      "bang-frame-15.png",
+      "bang-frame-16.png",
+      "bang-frame-17.png",
+      "bang-frame-18.png",
+      "bang-frame-19.png",
+      "bang-frame-20.png",
+      "bang-frame-21.png",
+      "bang-frame-22.png",
+      "bang-frame-23.png"
+    ]
+  },
+  "meta": {
+    "image": "bang-sprite.png",
+    "format": "RGBA8888",
+    "size": {"w": 2032, "h": 672},
+    "scale": "1"
+  }
+}

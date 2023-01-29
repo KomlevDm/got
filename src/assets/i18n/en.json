@@ -1,0 +1,61 @@
+{
+  "GamePage": {
+    "GameDialog": {
+      "Button": {
+        "Continue": "Continue",
+        "Finish": "Finish"
+      }
+    },
+    "GameOverDialog": {
+      "Button": {
+        "Finish": "Finish",
+        "Restart": "Restart"
+      },
+      "Title": "Game over"
+    },
+    "VictoryDialog": {
+      "Button": {
+        "Top": "Top"
+      },
+      "Title": "Victory"
+    }
+  },
+  "HeroPage": {
+    "Button": {
+      "Go": "Go"
+    },
+    "ControlTitle": "Control",
+    "HeroDefaultName": "Hero",
+    "Title": "Your hero"
+  },
+  "MenuPage": {
+    "Menu": {
+      "Button": {
+        "Language": "Language",
+        "Play": "Play",
+        "Top": "Top"
+      },
+      "Logo": {
+        "Text": "Menu"
+      }
+    },
+    "Title": "Game of thrones",
+    "ToggleLanguageDialog": {
+      "Title": "Please select your preferred language"
+    }
+  },
+  "StartPage": {
+    "Logo": {
+      "Text": "Start"
+    }
+  },
+  "TopPage": {
+    "Column": {
+      "Name": "Name",
+      "Place": "Place",
+      "Score": "Score"
+    },
+    "EmptyMessage": "It's your time to make history",
+    "Title": "Top"
+  }
+}

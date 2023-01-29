@@ -1,0 +1,21 @@
+<h1 class="ice-and-fire-font">{{ 'MenuPage.Title' | translate }}</h1>
+
+<div class="menu-wrap">
+  <logo [text]="'MenuPage.Menu.Logo.Text' | translate"></logo>
+
+  <nav class="menu">
+    <button routerLink="/hero" (click)="audioService.routing.replay()">
+      {{ 'MenuPage.Menu.Button.Play' | translate }}
+    </button>
+
+    <button routerLink="/top" (click)="audioService.routing.replay()">
+      {{ 'MenuPage.Menu.Button.Top' | translate }}
+    </button>
+
+    <button (click)="openToggleLanguageDialog()">
+      {{ 'MenuPage.Menu.Button.Language' | translate }}
+    </button>
+  </nav>
+</div>
+
+<footer-panel></footer-panel>

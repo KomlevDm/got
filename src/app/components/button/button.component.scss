@@ -1,0 +1,42 @@
+:host {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 16px 17px;
+  overflow: hidden;
+  font: inherit;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 0 rgb(0, 0, 0), 2px 3px 0 rgb(0, 0, 0);
+  background-color: rgba(252, 252, 252, .2);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, .949), rgba(255, 255, 255, 0) 70%), linear-gradient(to right, rgba(255, 255, 255, .741), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 70%, rgba(255, 255, 255, .431)), linear-gradient(to right, rgba(12, 12, 12, .78), rgb(202, 202, 202) 45%, rgba(125, 125, 125, .502)), linear-gradient(to right, rgb(125, 125, 125), rgba(169, 169, 169, .729) 45%, rgba(0, 0, 0, .588)), linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255) 45%, rgb(0, 0, 0)), linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255) 45%, rgba(4, 4, 4, .878));
+  background-repeat: no-repeat;
+  background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+  background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+  border: none;
+  cursor: inherit;
+  transition: background-color .1s linear, transform .1s linear;
+
+  &:active {
+    top: 3px;
+  }
+
+  &.hover:hover {
+    background-color: rgba(255, 17, 0, .2);
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    transform: scale(1.1);
+    transition: background-position .8s linear, transform .1s linear;
+  }
+
+  &.selected {
+    background-color: rgba(255, 17, 0, .2);
+  }
+
+  &.disabled {
+    filter: brightness(.5);
+    pointer-events: none;
+  }
+}

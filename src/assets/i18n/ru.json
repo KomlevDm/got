@@ -1,0 +1,61 @@
+{
+  "GamePage": {
+    "GameDialog": {
+      "Button": {
+        "Continue": "Продолжить",
+        "Finish": "Закончить"
+      }
+    },
+    "GameOverDialog": {
+      "Button": {
+        "Finish": "Закончить",
+        "Restart": "Заново"
+      },
+      "Title": "Игра окончена"
+    },
+    "VictoryDialog": {
+      "Button": {
+        "Top": "Рейтинг"
+      },
+      "Title": "Победа"
+    }
+  },
+  "HeroPage": {
+    "Button": {
+      "Go": "Начать"
+    },
+    "ControlTitle": "Управление",
+    "HeroDefaultName": "Герой",
+    "Title": "Ваш герой"
+  },
+  "MenuPage": {
+    "Menu": {
+      "Button": {
+        "Language": "Язык",
+        "Play": "Играть",
+        "Top": "Рейтинг"
+      },
+      "Logo": {
+        "Text": "Меню"
+      }
+    },
+    "Title": "Игра престолов",
+    "ToggleLanguageDialog": {
+      "Title": "Выберите предпочтительный язык"
+    }
+  },
+  "StartPage": {
+    "Logo": {
+      "Text": "Старт"
+    }
+  },
+  "TopPage": {
+    "Column": {
+      "Name": "Имя",
+      "Place": "Место",
+      "Score": "Очки"
+    },
+    "EmptyMessage": "Ваше время войти в историю",
+    "Title": "Рейтинг"
+  }
+}

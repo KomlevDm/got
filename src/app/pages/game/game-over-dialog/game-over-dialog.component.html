@@ -1,0 +1,9 @@
+<div class="title">{{ 'GamePage.GameOverDialog.Title' | translate }}</div>
+
+<button mat-dialog-close (click)="gameService.restart()">
+  {{ 'GamePage.GameOverDialog.Button.Restart' | translate }}
+</button>
+
+<button mat-dialog-close (click)="finish()">
+  {{ 'GamePage.GameOverDialog.Button.Finish' | translate }}
+</button>

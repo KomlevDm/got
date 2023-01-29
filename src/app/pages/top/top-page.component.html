@@ -1,0 +1,29 @@
+<back-button></back-button>
+
+<div class="page-title">{{ 'TopPage.Title' | translate }}</div>
+
+<table *ngIf="rows.length; else emptyMessageTemplate">
+  <tr>
+    <th>{{ 'TopPage.Column.Place' | translate }}</th>
+
+    <th>{{ 'TopPage.Column.Name' | translate }}</th>
+
+    <th>{{ 'TopPage.Column.Score' | translate }}</th>
+  </tr>
+
+  <tr *ngFor="let row of rows; let i = index">
+    <td>{{ i + 1 }}</td>
+
+    <td>{{ row.name }}</td>
+
+    <td>{{ row.score }}</td>
+  </tr>
+</table>
+
+<!-- #region Templates -->
+<ng-template #emptyMessageTemplate>
+  <div class="empty-message">
+    {{ 'TopPage.EmptyMessage' | translate }}
+  </div>
+</ng-template>
+<!-- #endregion Templates -->

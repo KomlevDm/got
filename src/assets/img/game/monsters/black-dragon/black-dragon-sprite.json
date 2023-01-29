@@ -1,0 +1,102 @@
+{
+  "frames": {
+    "black-dragon-frame-0.png": {
+      "frame": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-1.png": {
+      "frame": {"x": 213, "y": 0, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-2.png": {
+      "frame": {"x": 0, "y": 209, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-3.png": {
+      "frame": {"x": 213, "y": 209, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-4.png": {
+      "frame": {"x": 0, "y": 418, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-5.png": {
+      "frame": {"x": 213, "y": 418, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-6.png": {
+      "frame": {"x": 0, "y": 627, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-7.png": {
+      "frame": {"x": 213, "y": 627, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-8.png": {
+      "frame": {"x": 0, "y": 836, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-9.png": {
+      "frame": {"x": 213, "y": 836, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    },
+    "black-dragon-frame-10.png": {
+      "frame": {"x": 0, "y": 1045, "w": 213, "h": 209},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 213, "h": 209},
+      "sourceSize": {"w": 213, "h": 209}
+    }
+  },
+  "animations": {
+    "self": [
+      "black-dragon-frame-0.png",
+      "black-dragon-frame-1.png",
+      "black-dragon-frame-2.png",
+      "black-dragon-frame-3.png",
+      "black-dragon-frame-4.png",
+      "black-dragon-frame-5.png",
+      "black-dragon-frame-6.png",
+      "black-dragon-frame-7.png",
+      "black-dragon-frame-8.png",
+      "black-dragon-frame-9.png",
+      "black-dragon-frame-10.png"
+    ]
+  },
+  "meta": {
+    "image": "black-dragon-sprite.png",
+    "format": "RGBA8888",
+    "size": {"w": 426, "h": 1254},
+    "scale": "1"
+  }
+}

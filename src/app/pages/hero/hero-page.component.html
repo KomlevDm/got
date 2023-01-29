@@ -1,0 +1,31 @@
+<back-button></back-button>
+
+<div class="page-title">{{ 'HeroPage.Title' | translate }}</div>
+
+<div class="action-panel">
+  <input type="text" [formControl]="heroNameControl" maxlength="10" />
+
+  <button [isDisabled]="heroNameControl.invalid" (click)="go()">
+    {{ 'HeroPage.Button.Go' | translate }}
+  </button>
+</div>
+
+<div class="control-panel" [class.opened]="isOpenedControlPanel" (click)="toggleControlPanel()">
+  <div class="control-panel-title">{{ 'HeroPage.ControlTitle' | translate }}</div>
+
+  <div class="keys">
+    <div class="col">
+      <div class="key space">space <mat-icon>local_fire_department</mat-icon></div>
+    </div>
+
+    <div class="col">
+      <div class="key up">
+        <mat-icon>arrow_drop_up</mat-icon>
+      </div>
+
+      <div class="key down">
+        <mat-icon>arrow_drop_down</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>

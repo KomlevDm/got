@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.sound {
+  width: 50px;
+  transition: filter .3s linear, transform .15s linear;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+
+  &.disabled {
+    filter: grayscale(1);
+  }
+}
+
+.github-link {
+  width: 60px;
+  transform: rotate(-45deg);
+  transition: filter .3s linear;
+
+  &:hover {
+    filter: hue-rotate(180deg);
+  }
+
+  img {
+    width: 100%;
+  }
+}

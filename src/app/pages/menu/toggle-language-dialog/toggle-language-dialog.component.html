@@ -1,0 +1,11 @@
+<div class="title">{{ 'MenuPage.ToggleLanguageDialog.Title' | translate }}</div>
+
+<div class="active-panel">
+  <button [isUseHover]="false" [class.selected]="isSelected(ELanguage.Ru)" (click)="toggleLanguage(ELanguage.Ru)">
+    Русский
+  </button>
+
+  <button [isUseHover]="false" [class.selected]="isSelected(ELanguage.En)" (click)="toggleLanguage(ELanguage.En)">
+    English
+  </button>
+</div>

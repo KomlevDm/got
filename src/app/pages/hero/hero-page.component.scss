@@ -1,0 +1,122 @@
+:host {
+  background-image: url(../../../assets/img/bg/throne.webp);
+}
+
+.action-panel {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  transform: translate(-50%, -50%);
+  gap: 38px;
+
+  input {
+    width: calc(100% - 8px);
+    height: 58px;
+    padding: 0 24px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0 rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, .8);
+    border: none;
+    box-shadow: 0 0 2px 4px rgba(255, 255, 255, .502);
+    box-sizing: border-box;
+
+    &::selection {
+      background-color: rgb(167, 13, 18);
+    }
+  }
+}
+
+.control-panel {
+  position: absolute;
+  left: 50%;
+  bottom: -131px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 32px 16px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 0 rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, .9);
+  box-shadow: 0 0 2px 4px rgb(255 255 255 / 50%);
+  transform: translateX(-50%);
+  transition: bottom .2s ease-in-out;
+  animation: motion 3s ease-in-out infinite;
+  gap: 12px;
+
+  &.opened {
+    bottom: 0;
+    animation: none;
+  }
+
+  .control-panel-title {
+    font-size: 18px;
+    letter-spacing: 5px;
+  }
+
+  .keys {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+  }
+
+  .up,
+  .down {
+    width: 46px;
+  }
+
+  .space {
+    justify-content: space-between;
+    width: 230px;
+    padding: 0 16px;
+    font-size: 11px;
+    letter-spacing: 4px;
+    box-sizing: border-box;
+
+    mat-icon {
+      width: 19px;
+      height: 19px;
+      font-size: 19px;
+    }
+  }
+}
+
+@keyframes motion {
+
+  0% {
+    transform: translate(-50%, 0);
+  }
+
+  50% {
+    transform: translate(-50%, -4%);
+  }
+
+  100% {
+    transform: translate(-50%, 0);
+  }
+}

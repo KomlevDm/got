@@ -1,0 +1,14 @@
+:host {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  wrap-router-outlet {
+    padding: 4px;
+    border: 2px ridge rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+}

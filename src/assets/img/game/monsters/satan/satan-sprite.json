@@ -1,0 +1,78 @@
+{
+  "frames": {
+    "satan-frame-0.png": {
+      "frame": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-1.png": {
+      "frame": {"x": 421, "y": 0, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-2.png": {
+      "frame": {"x": 842, "y": 0, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-3.png": {
+      "frame": {"x": 1263, "y": 0, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-4.png": {
+      "frame": {"x": 0, "y": 501, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-5.png": {
+      "frame": {"x": 421, "y": 501, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-6.png": {
+      "frame": {"x": 842, "y": 501, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    },
+    "satan-frame-7.png": {
+      "frame": {"x": 1263, "y": 501, "w": 421, "h": 501},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 421, "h": 501},
+      "sourceSize": {"w": 421, "h": 501}
+    }
+  },
+  "animations": {
+    "self": [
+      "satan-frame-0.png",
+      "satan-frame-1.png",
+      "satan-frame-2.png",
+      "satan-frame-3.png",
+      "satan-frame-4.png",
+      "satan-frame-5.png",
+      "satan-frame-6.png",
+      "satan-frame-7.png"
+    ]
+  },
+  "meta": {
+    "image": "satan-sprite.png",
+    "format": "RGBA8888",
+    "size": {"w": 1684, "h": 1002},
+    "scale": "1"
+  }
+}

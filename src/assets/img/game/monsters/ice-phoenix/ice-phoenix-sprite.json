@@ -1,0 +1,254 @@
+{
+  "frames": {
+    "ice-phoenix-frame-0.png": {
+      "frame": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-1.png": {
+      "frame": {"x": 375, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-2.png": {
+      "frame": {"x": 750, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-3.png": {
+      "frame": {"x": 1125, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-4.png": {
+      "frame": {"x": 1500, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-5.png": {
+      "frame": {"x": 1875, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-6.png": {
+      "frame": {"x": 2250, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-7.png": {
+      "frame": {"x": 2625, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-8.png": {
+      "frame": {"x": 3000, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-9.png": {
+      "frame": {"x": 3375, "y": 0, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-10.png": {
+      "frame": {"x": 0, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-11.png": {
+      "frame": {"x": 375, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-12.png": {
+      "frame": {"x": 750, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-13.png": {
+      "frame": {"x": 1125, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-14.png": {
+      "frame": {"x": 1500, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-15.png": {
+      "frame": {"x": 1875, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-16.png": {
+      "frame": {"x": 2250, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-17.png": {
+      "frame": {"x": 2625, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-18.png": {
+      "frame": {"x": 3000, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-19.png": {
+      "frame": {"x": 3375, "y": 355, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-20.png": {
+      "frame": {"x": 0, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-21.png": {
+      "frame": {"x": 375, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-22.png": {
+      "frame": {"x": 750, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-23.png": {
+      "frame": {"x": 1125, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-24.png": {
+      "frame": {"x": 1500, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-25.png": {
+      "frame": {"x": 1875, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-26.png": {
+      "frame": {"x": 2250, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-27.png": {
+      "frame": {"x": 2625, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-28.png": {
+      "frame": {"x": 3000, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    },
+    "ice-phoenix-frame-29.png": {
+      "frame": {"x": 3375, "y": 710, "w": 375, "h": 355},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 375, "h": 355},
+      "sourceSize": {"w": 375, "h": 355}
+    }
+  },
+  "animations": {
+    "self": [
+      "ice-phoenix-frame-0.png",
+      "ice-phoenix-frame-1.png",
+      "ice-phoenix-frame-2.png",
+      "ice-phoenix-frame-3.png",
+      "ice-phoenix-frame-4.png",
+      "ice-phoenix-frame-5.png",
+      "ice-phoenix-frame-6.png",
+      "ice-phoenix-frame-7.png",
+      "ice-phoenix-frame-8.png",
+      "ice-phoenix-frame-9.png",
+      "ice-phoenix-frame-10.png",
+      "ice-phoenix-frame-11.png",
+      "ice-phoenix-frame-12.png",
+      "ice-phoenix-frame-13.png",
+      "ice-phoenix-frame-14.png",
+      "ice-phoenix-frame-15.png",
+      "ice-phoenix-frame-16.png",
+      "ice-phoenix-frame-17.png",
+      "ice-phoenix-frame-18.png",
+      "ice-phoenix-frame-19.png",
+      "ice-phoenix-frame-20.png",
+      "ice-phoenix-frame-21.png",
+      "ice-phoenix-frame-22.png",
+      "ice-phoenix-frame-23.png",
+      "ice-phoenix-frame-24.png",
+      "ice-phoenix-frame-25.png",
+      "ice-phoenix-frame-26.png",
+      "ice-phoenix-frame-27.png",
+      "ice-phoenix-frame-28.png",
+      "ice-phoenix-frame-29.png"
+    ]
+  },
+  "meta": {
+    "image": "ice-phoenix-sprite.png",
+    "format": "RGBA8888",
+    "size": {"w": 3750, "h": 1065},
+    "scale": "1"
+  }
+}

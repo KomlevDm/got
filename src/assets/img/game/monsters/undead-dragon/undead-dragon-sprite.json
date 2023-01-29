@@ -1,0 +1,494 @@
+{
+  "frames": {
+    "undead-dragon-frame-0.png": {
+      "frame": {"x": 1387, "y": 132, "w": 467, "h": 131},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 21, "y": 21, "w": 467, "h": 131},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-1.png": {
+      "frame": {"x": 940, "y": 398, "w": 467, "h": 133},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 20, "y": 19, "w": 467, "h": 133},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-2.png": {
+      "frame": {"x": 926, "y": 669, "w": 467, "h": 135},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 19, "y": 17, "w": 467, "h": 135},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-3.png": {
+      "frame": {"x": 1395, "y": 669, "w": 467, "h": 135},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 17, "y": 19, "w": 467, "h": 135},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-4.png": {
+      "frame": {"x": 1391, "y": 806, "w": 467, "h": 136},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 16, "y": 18, "w": 467, "h": 136},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-5.png": {
+      "frame": {"x": 1398, "y": 1083, "w": 466, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 15, "y": 17, "w": 466, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-6.png": {
+      "frame": {"x": 460, "y": 1220, "w": 466, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 12, "y": 17, "w": 466, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-7.png": {
+      "frame": {"x": 460, "y": 1502, "w": 467, "h": 138},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 10, "y": 16, "w": 467, "h": 138},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-8.png": {
+      "frame": {"x": 929, "y": 1502, "w": 466, "h": 139},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 9, "y": 15, "w": 466, "h": 139},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-9.png": {
+      "frame": {"x": 1, "y": 1642, "w": 466, "h": 141},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 6, "y": 13, "w": 466, "h": 141},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-10.png": {
+      "frame": {"x": 1392, "y": 1644, "w": 467, "h": 143},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 4, "y": 14, "w": 467, "h": 143},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-11.png": {
+      "frame": {"x": 1, "y": 1930, "w": 466, "h": 147},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 3, "y": 13, "w": 466, "h": 147},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-12.png": {
+      "frame": {"x": 469, "y": 1932, "w": 466, "h": 148},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 15, "w": 466, "h": 148},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-13.png": {
+      "frame": {"x": 1402, "y": 1938, "w": 465, "h": 150},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 14, "w": 465, "h": 150},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-14.png": {
+      "frame": {"x": 937, "y": 1935, "w": 463, "h": 148},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 16, "w": 463, "h": 148},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-15.png": {
+      "frame": {"x": 1405, "y": 1789, "w": 461, "h": 147},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 15, "w": 461, "h": 147},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-16.png": {
+      "frame": {"x": 469, "y": 1643, "w": 460, "h": 142},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 19, "w": 460, "h": 142},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-17.png": {
+      "frame": {"x": 931, "y": 1643, "w": 459, "h": 142},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 19, "w": 459, "h": 142},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-18.png": {
+      "frame": {"x": 1, "y": 1355, "w": 457, "h": 140},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 18, "w": 457, "h": 140},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-19.png": {
+      "frame": {"x": 1, "y": 1497, "w": 457, "h": 140},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 18, "w": 457, "h": 140},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-20.png": {
+      "frame": {"x": 1, "y": 1215, "w": 457, "h": 138},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 18, "w": 457, "h": 138},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-21.png": {
+      "frame": {"x": 467, "y": 804, "w": 457, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 0, "y": 17, "w": 457, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-22.png": {
+      "frame": {"x": 468, "y": 667, "w": 456, "h": 135},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 1, "y": 17, "w": 456, "h": 135},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-23.png": {
+      "frame": {"x": 1, "y": 262, "w": 455, "h": 131},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 3, "y": 18, "w": 455, "h": 131},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-24.png": {
+      "frame": {"x": 460, "y": 131, "w": 456, "h": 130},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 5, "y": 18, "w": 456, "h": 130},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-25.png": {
+      "frame": {"x": 921, "y": 1, "w": 456, "h": 129},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 7, "y": 19, "w": 456, "h": 129},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-26.png": {
+      "frame": {"x": 1379, "y": 1, "w": 456, "h": 129},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 9, "y": 20, "w": 456, "h": 129},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-27.png": {
+      "frame": {"x": 1, "y": 131, "w": 457, "h": 129},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 12, "y": 21, "w": 457, "h": 129},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-28.png": {
+      "frame": {"x": 1, "y": 1, "w": 458, "h": 128},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 13, "y": 22, "w": 458, "h": 128},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-29.png": {
+      "frame": {"x": 461, "y": 1, "w": 458, "h": 128},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 15, "y": 23, "w": 458, "h": 128},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-30.png": {
+      "frame": {"x": 918, "y": 264, "w": 459, "h": 131},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 18, "y": 21, "w": 459, "h": 131},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-31.png": {
+      "frame": {"x": 458, "y": 263, "w": 458, "h": 131},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 20, "y": 21, "w": 458, "h": 131},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-32.png": {
+      "frame": {"x": 1379, "y": 265, "w": 459, "h": 131},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 21, "y": 22, "w": 459, "h": 131},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-33.png": {
+      "frame": {"x": 1409, "y": 398, "w": 460, "h": 133},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 23, "y": 21, "w": 460, "h": 133},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-34.png": {
+      "frame": {"x": 468, "y": 531, "w": 460, "h": 134},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 24, "y": 20, "w": 460, "h": 134},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-35.png": {
+      "frame": {"x": 930, "y": 533, "w": 462, "h": 134},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 24, "y": 20, "w": 462, "h": 134},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-36.png": {
+      "frame": {"x": 1399, "y": 944, "w": 462, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 17, "w": 462, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-37.png": {
+      "frame": {"x": 1, "y": 1076, "w": 462, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 17, "w": 462, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-38.png": {
+      "frame": {"x": 928, "y": 1221, "w": 462, "h": 138},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 26, "y": 16, "w": 462, "h": 138},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-39.png": {
+      "frame": {"x": 1392, "y": 1222, "w": 463, "h": 138},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 26, "y": 15, "w": 463, "h": 138},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-40.png": {
+      "frame": {"x": 926, "y": 1361, "w": 464, "h": 139},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 26, "y": 14, "w": 464, "h": 139},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-41.png": {
+      "frame": {"x": 460, "y": 1359, "w": 464, "h": 138},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 26, "y": 14, "w": 464, "h": 138},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-42.png": {
+      "frame": {"x": 1, "y": 1785, "w": 466, "h": 143},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 14, "w": 466, "h": 143},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-43.png": {
+      "frame": {"x": 937, "y": 1789, "w": 466, "h": 144},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 13, "w": 466, "h": 144},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-44.png": {
+      "frame": {"x": 469, "y": 1787, "w": 466, "h": 143},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 14, "w": 466, "h": 143},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-45.png": {
+      "frame": {"x": 1397, "y": 1502, "w": 466, "h": 140},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 15, "w": 466, "h": 140},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-46.png": {
+      "frame": {"x": 1392, "y": 1362, "w": 465, "h": 138},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 15, "w": 465, "h": 138},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-47.png": {
+      "frame": {"x": 467, "y": 943, "w": 465, "h": 136},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 15, "w": 465, "h": 136},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-48.png": {
+      "frame": {"x": 465, "y": 1081, "w": 465, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 13, "w": 465, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-49.png": {
+      "frame": {"x": 932, "y": 1082, "w": 464, "h": 137},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 12, "w": 464, "h": 137},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-50.png": {
+      "frame": {"x": 1, "y": 938, "w": 464, "h": 136},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 12, "w": 464, "h": 136},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-51.png": {
+      "frame": {"x": 1, "y": 801, "w": 464, "h": 135},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 12, "w": 464, "h": 135},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-52.png": {
+      "frame": {"x": 926, "y": 806, "w": 463, "h": 135},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 12, "w": 463, "h": 135},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-53.png": {
+      "frame": {"x": 934, "y": 944, "w": 463, "h": 136},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 25, "y": 12, "w": 463, "h": 136},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-54.png": {
+      "frame": {"x": 1394, "y": 533, "w": 465, "h": 134},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 24, "y": 14, "w": 465, "h": 134},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-55.png": {
+      "frame": {"x": 1, "y": 665, "w": 465, "h": 134},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 24, "y": 15, "w": 465, "h": 134},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-56.png": {
+      "frame": {"x": 1, "y": 530, "w": 465, "h": 133},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 24, "y": 16, "w": 465, "h": 133},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-57.png": {
+      "frame": {"x": 1, "y": 396, "w": 467, "h": 132},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 22, "y": 18, "w": 467, "h": 132},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-58.png": {
+      "frame": {"x": 918, "y": 132, "w": 467, "h": 130},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 22, "y": 20, "w": 467, "h": 130},
+      "sourceSize": {"w": 495, "h": 176}
+    },
+    "undead-dragon-frame-59.png": {
+      "frame": {"x": 470, "y": 397, "w": 468, "h": 132},
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {"x": 21, "y": 19, "w": 468, "h": 132},
+      "sourceSize": {"w": 495, "h": 176}
+    }
+  },
+  "animations": {
+    "self": [
+      "undead-dragon-frame-0.png",
+      "undead-dragon-frame-1.png",
+      "undead-dragon-frame-2.png",
+      "undead-dragon-frame-3.png",
+      "undead-dragon-frame-4.png",
+      "undead-dragon-frame-5.png",
+      "undead-dragon-frame-6.png",
+      "undead-dragon-frame-7.png",
+      "undead-dragon-frame-8.png",
+      "undead-dragon-frame-9.png",
+      "undead-dragon-frame-10.png",
+      "undead-dragon-frame-11.png",
+      "undead-dragon-frame-12.png",
+      "undead-dragon-frame-13.png",
+      "undead-dragon-frame-14.png",
+      "undead-dragon-frame-15.png",
+      "undead-dragon-frame-16.png",
+      "undead-dragon-frame-17.png",
+      "undead-dragon-frame-18.png",
+      "undead-dragon-frame-19.png",
+      "undead-dragon-frame-20.png",
+      "undead-dragon-frame-21.png",
+      "undead-dragon-frame-22.png",
+      "undead-dragon-frame-23.png",
+      "undead-dragon-frame-24.png",
+      "undead-dragon-frame-25.png",
+      "undead-dragon-frame-26.png",
+      "undead-dragon-frame-27.png",
+      "undead-dragon-frame-28.png",
+      "undead-dragon-frame-29.png",
+      "undead-dragon-frame-30.png",
+      "undead-dragon-frame-31.png",
+      "undead-dragon-frame-32.png",
+      "undead-dragon-frame-33.png",
+      "undead-dragon-frame-34.png",
+      "undead-dragon-frame-35.png",
+      "undead-dragon-frame-36.png",
+      "undead-dragon-frame-37.png",
+      "undead-dragon-frame-38.png",
+      "undead-dragon-frame-39.png",
+      "undead-dragon-frame-40.png",
+      "undead-dragon-frame-41.png",
+      "undead-dragon-frame-42.png",
+      "undead-dragon-frame-43.png",
+      "undead-dragon-frame-44.png",
+      "undead-dragon-frame-45.png",
+      "undead-dragon-frame-46.png",
+      "undead-dragon-frame-47.png",
+      "undead-dragon-frame-48.png",
+      "undead-dragon-frame-49.png",
+      "undead-dragon-frame-50.png",
+      "undead-dragon-frame-51.png",
+      "undead-dragon-frame-52.png",
+      "undead-dragon-frame-53.png",
+      "undead-dragon-frame-54.png",
+      "undead-dragon-frame-55.png",
+      "undead-dragon-frame-56.png",
+      "undead-dragon-frame-57.png",
+      "undead-dragon-frame-58.png",
+      "undead-dragon-frame-59.png"
+    ]
+  },
+  "meta": {
+    "image": "undead-dragon-sprite.png",
+    "format": "RGBA8888",
+    "size": {"w": 1870, "h": 2089},
+    "scale": "1"
+  }
+}

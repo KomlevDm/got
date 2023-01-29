@@ -1,0 +1,27 @@
+export const AUDIO_LIST = {
+  bg: {
+    mainTitles: 'main-titles.mp3',
+    lightOfTheSeven: 'light-of-the-seven.mp3',
+    danceOfDragons: 'dance-of-dragons.mp3',
+    theNightKing: 'the-night-king.mp3',
+    dracarys: 'dracarys.mp3',
+  },
+  action: {
+    activeButton: 'active-button.mp3',
+    blockShield: 'block-shield.mp3',
+    closeDialog: 'close-dialog.mp3',
+    gameOver: 'game-over.mp3',
+    getLifeArtifact: 'get-life-artifact.mp3',
+    getLightningArtifact: 'get-lightning-artifact.mp3',
+    getPunchArtifact: 'get-punch-artifact.mp3',
+    getShieldArtifact: 'get-shield-artifact.mp3',
+    heroAttack: 'hero-attack.mp3',
+    heroDeath: 'hero-death.mp3',
+    monsterDeath: 'monster-death.mp3',
+    monsterShield: 'monster-shield.mp3',
+    openDialog: 'open-dialog.mp3',
+    playGame: 'play-game.mp3',
+    routing: 'routing.mp3',
+    victory: 'victory.mp3',
+  },
+} as const;

@@ -1,0 +1,172 @@
+{
+  "root": true,
+  "plugins": ["@nrwl/nx", "deprecation", "import"],
+  "ignorePatterns": ["src/assets/scripts"],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.js"],
+      "parserOptions": {
+        "project": ["tsconfig.json"]
+      },
+      "rules": {
+        "no-duplicate-imports": [
+          "error",
+          {
+            "includeExports": true
+          }
+        ],
+        "eqeqeq": "error",
+        "no-console": [
+          "error",
+          {
+            "allow": ["warn", "error"]
+          }
+        ],
+        "deprecation/deprecation": "error",
+        "import/order": [
+          "error",
+          {
+            "groups": [["builtin", "external"], ["internal"], ["parent", "sibling", "index"], ["object", "type"]],
+            "newlines-between": "always",
+            "alphabetize": {
+              "order": "asc",
+              "caseInsensitive": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "files": ["*.ts"],
+      "extends": [
+        "plugin:@nrwl/nx/typescript",
+        "plugin:@nrwl/nx/angular",
+        "plugin:@angular-eslint/template/process-inline-templates"
+      ],
+      "rules": {
+        "@typescript-eslint/naming-convention": [
+          "error",
+          {
+            "selector": ["parameter", "accessor", "method", "function"],
+            "format": ["strictCamelCase"]
+          },
+          {
+            "selector": "parameter",
+            "format": ["strictCamelCase"],
+            "modifiers": ["unused"],
+            "leadingUnderscore": "allow"
+          },
+          {
+            "selector": ["property", "accessor"],
+            "format": ["strictCamelCase"],
+            "modifiers": ["private"],
+            "leadingUnderscore": "allow"
+          },
+          {
+            "selector": ["property"],
+            "format": ["UPPER_CASE"],
+            "modifiers": ["private", "static", "readonly"]
+          },
+          {
+            "selector": ["property"],
+            "format": ["UPPER_CASE"],
+            "modifiers": ["protected", "static", "readonly"]
+          },
+          {
+            "selector": ["property"],
+            "format": ["UPPER_CASE"],
+            "modifiers": ["public", "static", "readonly"]
+          },
+          {
+            "selector": "typeLike",
+            "format": ["StrictPascalCase"]
+          },
+          {
+            "selector": "class",
+            "format": ["StrictPascalCase"],
+            "prefix": ["A"],
+            "modifiers": ["abstract"]
+          },
+          {
+            "selector": "typeAlias",
+            "format": ["StrictPascalCase"],
+            "prefix": ["T"]
+          },
+          {
+            "selector": "interface",
+            "format": ["StrictPascalCase"],
+            "prefix": ["I"]
+          },
+          {
+            "selector": "enum",
+            "format": ["StrictPascalCase"],
+            "prefix": ["E"]
+          },
+          {
+            "selector": "enumMember",
+            "format": ["StrictPascalCase"]
+          }
+        ],
+        "@typescript-eslint/explicit-member-accessibility": [
+          "error",
+          {
+            "accessibility": "explicit",
+            "overrides": {
+              "constructors": "no-public"
+            }
+          }
+        ],
+        "@typescript-eslint/explicit-function-return-type": [
+          "error",
+          {
+            "allowExpressions": true,
+            "allowConciseArrowFunctionExpressionsStartingWithVoid": true
+          }
+        ],
+        "@typescript-eslint/no-explicit-any": "error",
+        "@typescript-eslint/no-floating-promises": "error",
+        "@typescript-eslint/await-thenable": "error",
+        "@typescript-eslint/semi": "error",
+        "@typescript-eslint/prefer-readonly": "error",
+        "@typescript-eslint/no-unused-expressions": ["error"],
+        "@typescript-eslint/no-unused-vars": [
+          "error",
+          {
+            "argsIgnorePattern": "^_"
+          }
+        ],
+        "@typescript-eslint/no-restricted-imports": [
+          "error",
+          {
+            "patterns": [
+              {
+                "group": ["lodash"],
+                "message": "Using lodash is forbidden, use \"import * as _ from 'lodash-es'\"."
+              }
+            ]
+          }
+        ],
+        "@typescript-eslint/no-shadow": "error",
+        "@typescript-eslint/require-await": "error",
+        "@typescript-eslint/quotes": [
+          "error",
+          "single",
+          {
+            "avoidEscape": true
+          }
+        ],
+        "@typescript-eslint/member-ordering": "off",
+        "@typescript-eslint/no-non-null-assertion": "off"
+      }
+    },
+    {
+      "files": ["*.js"],
+      "extends": ["plugin:@nrwl/nx/javascript"]
+    },
+    {
+      "files": ["*.html"],
+      "extends": ["plugin:@nrwl/nx/angular-template"],
+      "rules": {}
+    }
+  ]
+}
