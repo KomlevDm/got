@@ -1,6 +1,7 @@
 {
   "name": "game-of-thrones",
   "version": "2.0.0",
+  "private": true,
   "scripts": {
     "format.check": "prettier --check src",
     "format.fix": "prettier --write src",
@@ -12,7 +13,6 @@
     "build": "ng build",
     "i18n.extract": "ngx-translate-extract --input=src --output=src/assets/i18n/ru.json src/assets/i18n/en.json --format=namespaced-json --format-indentation=\"  \" --key-as-default-value --clean --sort"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "15.2.2",
     "@angular/cdk": "15.2.2",
