@@ -2,7 +2,7 @@
 
 2D game based on the series Game of Thrones.
 
-[Online](https://komlevdm.github.io)
+[Online](https://komlevdm.github.io){:target="\_blank"}
 
 <p>
   <img src="./preview/start.png" height="250px" />
