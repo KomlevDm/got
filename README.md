@@ -5,8 +5,8 @@
 [Online](https://komlevdm.github.io)
 
 <p>
-  <img src="./preview/start.png" height="200px" />
-  <img src="./preview/menu.png" height="200px" />
+  <img src="./preview/start.png" height="250px" />
+  <img src="./preview/menu.png" height="250px" />
 </p>
 
 ## How to run
