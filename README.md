@@ -7,7 +7,7 @@
 <img src="./preview/start.png" height="200px" />
 <img src="./preview/menu.png" height="200px" />
 
-## How to developing
+## How to run
 
 1. Install [nodejs ^16.0.0 + npm ^8.0.0](https://nodejs.org)
 
