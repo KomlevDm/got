@@ -1,18 +1,18 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 
-import {GameGuard} from './guards/game.guard';
-import {StartGuard} from './guards/start.guard';
+import {PrivateGuard} from './guards/private.guard';
+import {PublicGuard} from './guards/public.guard';
 
 const routes: Routes = [
   {
     path: '',
-    canMatch: [StartGuard],
+    canMatch: [PublicGuard],
     loadComponent: () => import('./pages/start/start-page.component').then(chunk => chunk.StartPageComponent),
   },
   {
     path: '',
-    canMatch: [GameGuard],
+    canMatch: [PrivateGuard],
     loadChildren: () => import('./modules/game/game.module').then(chunk => chunk.GameModule),
   },
   {
