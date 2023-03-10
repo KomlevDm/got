@@ -4,8 +4,10 @@
 
 [Online](https://komlevdm.github.io)
 
-<img src="./preview/start.png" height="200px" />
-<img src="./preview/menu.png" height="200px" />
+<p>
+  <img src="./preview/start.png" height="200px" />
+  <img src="./preview/menu.png" height="200px" />
+</p>
 
 ## How to run
 
