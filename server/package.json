@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "nest start",
+    "serve.dev": "nest start --watch",
+    "serve.debug": "nest start --debug --watch",
+    "build": "nest build"
+  }
+}

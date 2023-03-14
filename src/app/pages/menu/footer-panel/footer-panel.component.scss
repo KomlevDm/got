@@ -7,7 +7,7 @@
 
 .sound {
   width: 50px;
-  transition: filter .3s linear, transform .15s linear;
+  transition: filter 0.3s linear, transform 0.15s linear;
 
   &:hover {
     transform: scale(1.15);
@@ -21,7 +21,7 @@
 .github-link {
   width: 60px;
   transform: rotate(-45deg);
-  transition: filter .3s linear;
+  transition: filter 0.3s linear;
 
   &:hover {
     filter: hue-rotate(180deg);

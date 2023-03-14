@@ -34,13 +34,12 @@ a {
   font-weight: bold;
   color: transparent;
   letter-spacing: 5px;
-  text-shadow:
-    (
-      -2px -3px 0 rgb(0, 0, 0),
-      -2px -3px 3px rgb(255, 255, 255),
-      -2px -3px 3px rgb(255, 255, 255),
-      -2px -3px 3px rgb(255, 255, 255),
-    );
+  text-shadow: (
+    -2px -3px 0 rgb(0, 0, 0),
+    -2px -3px 3px rgb(255, 255, 255),
+    -2px -3px 3px rgb(255, 255, 255),
+    -2px -3px 3px rgb(255, 255, 255)
+  );
   background-image: url(../assets/img/bg/ice-and-fire.webp);
   background-position: 0;
   background-size: cover;

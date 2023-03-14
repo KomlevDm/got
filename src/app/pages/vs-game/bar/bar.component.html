@@ -1,0 +1,21 @@
+<div class="side-slot">
+  <div class="life">
+    <div class="bar" [style.transform]="heroBarTransformCss"></div>
+  </div>
+
+  <div class="ice-and-fire-font name left">{{ heroName }}</div>
+
+  <div class="attacks">
+    <span class="ice-and-fire-font">{{ heroAttacks }}</span>
+
+    <img src="assets/img/game/attacks/hero-attack.png" [class.disabled]="heroAttacks === 0" />
+  </div>
+</div>
+
+<div class="side-slot">
+  <div class="life">
+    <div class="bar opponent" [style.transform]="opponentBarTransformCss"></div>
+  </div>
+
+  <div class="ice-and-fire-font name right">{{ opponentName }}</div>
+</div>

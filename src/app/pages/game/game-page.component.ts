@@ -38,7 +38,7 @@ export class GamePageComponent extends ADestroyer implements OnInit, AfterViewIn
   protected isPunchActivated = false;
   protected isLightningActivated = false;
   protected hasBoss = false;
-  protected bossLifePct = 0;
+  protected bossLifePct = 100;
   protected score = 0;
 
   constructor(
@@ -84,11 +84,11 @@ export class GamePageComponent extends ADestroyer implements OnInit, AfterViewIn
       this.cdr.detectChanges();
     });
 
-    this.bossService.livesPct$.pipe(takeUntil(this.destroyer$)).subscribe(livesPct => {
-      this.bossLifePct = livesPct;
+    this.bossService.lifePct$.pipe(takeUntil(this.destroyer$)).subscribe(lifePct => {
+      this.bossLifePct = lifePct;
       this.cdr.detectChanges();
 
-      if (!livesPct) {
+      if (!lifePct) {
         const topRaw = localStorage.getItem(ELocalStorageKey.Top);
         const top: ITopRow[] = topRaw !== null ? JSON.parse(topRaw) : [];
         const newTop = _.take(top.concat({name: this.heroService.name, score: this.heroService.score}), 10).sort(

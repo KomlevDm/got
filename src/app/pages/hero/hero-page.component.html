@@ -5,9 +5,15 @@
 <div class="action-panel">
   <input type="text" [formControl]="heroNameControl" maxlength="10" />
 
-  <button [isDisabled]="heroNameControl.invalid" (click)="go()">
-    {{ 'HeroPage.Button.Go' | translate }}
-  </button>
+  <div class="actions">
+    <button [isDisabled]="heroNameControl.invalid" (click)="go('vs')">
+      {{ 'HeroPage.Button.VsGame' | translate }}
+    </button>
+
+    <button [isDisabled]="heroNameControl.invalid" (click)="go('single')">
+      {{ 'HeroPage.Button.SingleGame' | translate }}
+    </button>
+  </div>
 </div>
 
 <div class="control-panel" [class.opened]="isOpenedControlPanel" (click)="toggleControlPanel()">

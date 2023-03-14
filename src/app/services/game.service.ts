@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {Application} from 'pixi.js';
 
 import {ArtifactsService} from './artifacts.service';
+import {AssetsService} from './assets.service';
 import {AttacksService} from './attacks.service';
 import {AudioService} from './audio.service';
 import {BgService} from './bg.service';
@@ -16,6 +17,7 @@ export class GameService {
   private game: Application | null = null;
 
   constructor(
+    private readonly assetsService: AssetsService,
     private readonly audioService: AudioService,
     private readonly bgService: BgService,
     private readonly heroService: HeroService,
@@ -39,7 +41,7 @@ export class GameService {
     // pixijs optimization advice
     this.game.stage.cullable = true;
 
-    this.bgService.start(this.game);
+    this.bgService.start(this.game, this.assetsService.bg);
     this.artifactsService.start(this.game);
     this.attacksService.start(this.game);
     this.heroService.start(this.game);

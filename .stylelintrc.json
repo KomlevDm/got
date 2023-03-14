@@ -525,7 +525,6 @@
     "selector-attribute-quotes": "always",
     "selector-pseudo-element-colon-notation": "single",
     "selector-type-case": "lower",
-    "rule-empty-line-before": "always",
     "selector-no-qualifying-type": null,
     "at-rule-empty-line-before": [
       "always",

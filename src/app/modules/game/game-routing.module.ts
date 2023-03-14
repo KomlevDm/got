@@ -22,6 +22,11 @@ const routes: Routes = [
         loadComponent: () => import('../../pages/hero/hero-page.component').then(chunk => chunk.HeroPageComponent),
       },
       {
+        path: 'vs-game',
+        loadComponent: () =>
+          import('../../pages/vs-game/vs-game-page.component').then(chunk => chunk.VsGamePageComponent),
+      },
+      {
         path: 'game',
         loadComponent: () => import('../../pages/game/game-page.component').then(chunk => chunk.GamePageComponent),
       },

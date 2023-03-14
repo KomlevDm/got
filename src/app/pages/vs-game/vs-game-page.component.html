@@ -1,0 +1,10 @@
+<opponent-search *ngIf="isOpponentSearch"></opponent-search>
+
+<bar
+  *ngIf="!isOpponentSearch"
+  [heroName]="heroName"
+  [heroLifePct]="heroLifePct"
+  [heroAttacks]="heroAttacks"
+  [opponentLifePct]="opponentLifePct"
+  [opponentName]="opponentName"
+></bar>

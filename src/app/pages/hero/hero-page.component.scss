@@ -24,14 +24,20 @@
     text-align: center;
     letter-spacing: 2px;
     text-shadow: 1px 1px 0 rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, .8);
+    background-color: rgba(255, 255, 255, 0.8);
     border: none;
-    box-shadow: 0 0 2px 4px rgba(255, 255, 255, .502);
+    box-shadow: 0 0 2px 4px rgba(255, 255, 255, 0.502);
     box-sizing: border-box;
 
     &::selection {
       background-color: rgb(167, 13, 18);
     }
+  }
+
+  .actions {
+    display: flex;
+    width: 600px;
+    gap: 32px;
   }
 }
 
@@ -46,10 +52,10 @@
   padding: 20px 32px 16px;
   color: rgb(0, 0, 0);
   text-shadow: 1px 1px 0 rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 2px 4px rgb(255 255 255 / 50%);
   transform: translateX(-50%);
-  transition: bottom .2s ease-in-out;
+  transition: bottom 0.2s ease-in-out;
   animation: motion 3s ease-in-out infinite;
   gap: 12px;
 
@@ -107,7 +113,6 @@
 }
 
 @keyframes motion {
-
   0% {
     transform: translate(-50%, 0);
   }

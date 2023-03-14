@@ -1,4 +1,4 @@
-import {Component, ChangeDetectionStrategy, HostListener, HostBinding} from '@angular/core';
+import {Component, ChangeDetectionStrategy, HostBinding} from '@angular/core';
 import {FormControl, ReactiveFormsModule, Validators} from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
 import {Router} from '@angular/router';
@@ -10,6 +10,7 @@ import {BackButtonComponent} from 'src/app/components/back-button/back-button.co
 import {ButtonComponent} from '../../components/button/button.component';
 import {ADestroyer} from '../../helpers/destroyer.abstract';
 import {HeroService} from '../../services/hero.service';
+import {VsHeroService} from '../../services/vs-game/vs-hero.service';
 
 @Component({
   standalone: true,
@@ -32,6 +33,7 @@ export class HeroPageComponent extends ADestroyer {
     private readonly router: Router,
     private readonly translateService: TranslateService,
     private readonly heroService: HeroService,
+    private readonly vsHeroService: VsHeroService,
   ) {
     super();
 
@@ -47,14 +49,19 @@ export class HeroPageComponent extends ADestroyer {
     this.isOpenedControlPanel = !this.isOpenedControlPanel;
   }
 
-  @HostListener('document:keydown.enter')
-  protected go(): void {
+  protected go(mode: 'single' | 'vs'): void {
     if (this.heroNameControl.invalid) {
       return;
     }
 
-    this.heroService.name = this.heroNameControl.value;
+    if (mode === 'single') {
+      this.heroService.name = this.heroNameControl.value;
 
-    void this.router.navigateByUrl('/game');
+      void this.router.navigateByUrl('/game');
+    } else {
+      this.vsHeroService.name = this.heroNameControl.value;
+
+      void this.router.navigateByUrl('/vs-game');
+    }
   }
 }

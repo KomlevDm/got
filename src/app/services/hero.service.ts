@@ -71,9 +71,6 @@ export class HeroService implements OnDestroy {
   private readonly _score$ = new BehaviorSubject(0);
   private readonly attack = {
     speed: SETTINGS.ATTACK.SPEED,
-    scale: SETTINGS.ATTACK.SCALE,
-    scaleSpeed: SETTINGS.ATTACK.SCALE_SPEED,
-    rotationAngleDeg: SETTINGS.ATTACK.ROTATION_ANGLE_DEG,
     isKeydownSpace: false,
     isKeyupSpace: false,
 
@@ -160,9 +157,6 @@ export class HeroService implements OnDestroy {
     this.score = 0;
 
     this.attack.speed = SETTINGS.ATTACK.SPEED;
-    this.attack.scale = SETTINGS.ATTACK.SCALE;
-    this.attack.scaleSpeed = SETTINGS.ATTACK.SCALE_SPEED;
-    this.attack.rotationAngleDeg = SETTINGS.ATTACK.ROTATION_ANGLE_DEG;
     this.attack.isKeydownSpace = false;
     this.attack.isKeyupSpace = false;
 
@@ -310,9 +304,9 @@ export class HeroService implements OnDestroy {
       y: this.sprite.y,
       whose: 'hero',
       speed: this.attack.speed,
-      rotationAngleDeg: this.attack.rotationAngleDeg,
-      scale: this.attack.scale,
-      scaleSpeed: this.attack.scaleSpeed,
+      rotationAngleDeg: SETTINGS.ATTACK.ROTATION_ANGLE_DEG,
+      scale: SETTINGS.ATTACK.SCALE,
+      scaleSpeed: SETTINGS.ATTACK.SCALE_SPEED,
       yRender,
     });
   }

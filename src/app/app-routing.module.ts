@@ -7,12 +7,12 @@ import {PublicGuard} from './guards/public.guard';
 const routes: Routes = [
   {
     path: '',
-    canMatch: [PublicGuard],
+    // canMatch: [PublicGuard], // TODO:
     loadComponent: () => import('./pages/start/start-page.component').then(chunk => chunk.StartPageComponent),
   },
   {
     path: '',
-    canMatch: [PrivateGuard],
+    // canMatch: [PrivateGuard], // TODO:
     loadChildren: () => import('./modules/game/game.module').then(chunk => chunk.GameModule),
   },
   {

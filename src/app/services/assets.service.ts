@@ -6,6 +6,7 @@ import {EArtifactName} from '../models/artifact-name.enum';
 @Injectable({providedIn: 'root'})
 export class AssetsService {
   public bg!: Texture;
+  public vsBg!: Texture;
 
   public artifacts!: {
     [EArtifactName.Life]: Texture;
@@ -28,6 +29,8 @@ export class AssetsService {
 
   public boss!: Spritesheet;
 
+  public opponent!: Spritesheet;
+
   public attacks!: {
     'hero-attack': Texture;
     'attack-1': Texture;
@@ -43,6 +46,7 @@ export class AssetsService {
 
   public async init(): Promise<void> {
     this.bg = Texture.from('assets/img/game/bg/snow-forest.png');
+    this.vsBg = Texture.from('assets/img/game/bg/sunset.png');
 
     this.artifacts = {
       life: Texture.from('assets/img/game/artifacts/life.png'),
@@ -65,6 +69,8 @@ export class AssetsService {
     this.monsters = await Assets.loadBundle('monsters');
 
     this.boss = await Assets.load('assets/img/game/boss/boss-sprite.json');
+
+    this.opponent = await Assets.load('assets/img/game/opponent/opponent-sprite.json');
 
     this.attacks = {
       'hero-attack': Texture.from('assets/img/game/attacks/hero-attack.png'),

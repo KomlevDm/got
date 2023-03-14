@@ -22,7 +22,8 @@
   },
   "HeroPage": {
     "Button": {
-      "Go": "Go"
+      "SingleGame": "Single",
+      "VsGame": "Vs"
     },
     "ControlTitle": "Control",
     "HeroDefaultName": "Hero",
@@ -57,5 +58,10 @@
     },
     "EmptyMessage": "It's your time to make history",
     "Title": "Top"
+  },
+  "VsGamePage": {
+    "OpponentSearch": {
+      "Text": "Opponent search"
+    }
   }
 }

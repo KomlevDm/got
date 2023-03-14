@@ -22,7 +22,8 @@
   },
   "HeroPage": {
     "Button": {
-      "Go": "Начать"
+      "SingleGame": "Одиночная",
+      "VsGame": "По сети"
     },
     "ControlTitle": "Управление",
     "HeroDefaultName": "Герой",
@@ -57,5 +58,10 @@
     },
     "EmptyMessage": "Ваше время войти в историю",
     "Title": "Рейтинг"
+  },
+  "VsGamePage": {
+    "OpponentSearch": {
+      "Text": "Поиск соперника"
+    }
   }
 }

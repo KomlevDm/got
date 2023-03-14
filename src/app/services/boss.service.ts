@@ -37,7 +37,7 @@ const SETTINGS = {
 
 @Injectable({providedIn: 'root'})
 export class BossService implements OnDestroy {
-  public readonly livesPct$: Observable<number>;
+  public readonly lifePct$: Observable<number>;
   public readonly hasBoss$: Observable<boolean>;
   public sprite: AnimatedSprite | null = null;
 
@@ -73,7 +73,7 @@ export class BossService implements OnDestroy {
     private readonly monsterService: MonstersService,
     private readonly attacksService: AttacksService,
   ) {
-    this.livesPct$ = this._lives$.asObservable().pipe(map(lives => (lives / SETTINGS.LIVES) * 100));
+    this.lifePct$ = this._lives$.asObservable().pipe(map(lives => (lives / SETTINGS.LIVES) * 100));
     this.hasBoss$ = this._hasBoss$.asObservable();
   }
 

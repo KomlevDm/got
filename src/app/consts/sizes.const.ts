@@ -7,6 +7,7 @@ export const SIZES = {
   X: {
     ['DELTA']: (sprite: Sprite) => sprite.width * sprite.anchor.x,
     HERO: 30,
+    VS_OPPONENT: 1270,
     BOSS: {
       CREATE: 1500,
       LIFE: 1270,

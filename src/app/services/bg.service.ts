@@ -1,7 +1,6 @@
 import {Injectable, OnDestroy} from '@angular/core';
-import {Application, TilingSprite} from 'pixi.js';
+import {Application, Resource, Texture, TilingSprite} from 'pixi.js';
 
-import {AssetsService} from './assets.service';
 import {SIZES} from '../consts/sizes.const';
 
 @Injectable({providedIn: 'root'})
@@ -11,12 +10,10 @@ export class BgService implements OnDestroy {
   private game: Application | null = null;
   private sprite: TilingSprite | null = null;
 
-  constructor(private readonly assetsService: AssetsService) {}
-
-  public start(game: Application): void {
+  public start(game: Application, bgTexture: Texture<Resource>): void {
     this.game = game;
 
-    this.sprite = TilingSprite.from(this.assetsService.bg, {width: SIZES.WIDTH, height: SIZES.HEIGHT});
+    this.sprite = TilingSprite.from(bgTexture, {width: SIZES.WIDTH, height: SIZES.HEIGHT});
     this.game.stage.addChild(this.sprite);
 
     this.game.ticker.add(this.render);

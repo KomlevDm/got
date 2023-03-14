@@ -1,0 +1,68 @@
+:host {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.side-slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.life {
+  width: 400px;
+  height: 30px;
+  overflow: hidden;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 2px;
+
+  .bar {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(147 19 27);
+    background-image: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.2) 50%, transparent, transparent);
+    transform: translateX(0);
+
+    &.opponent {
+      background-color: rgb(27 177 185);
+    }
+  }
+}
+
+.name {
+  position: absolute;
+  font-size: 18px;
+
+  &.left {
+    left: 10px;
+  }
+
+  &.right {
+    right: 2px;
+  }
+}
+
+.attacks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 28px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+
+    &.disabled {
+      filter: grayscale(1);
+    }
+  }
+}
+
+.ice-and-fire-font {
+  margin-top: 7px;
+}
